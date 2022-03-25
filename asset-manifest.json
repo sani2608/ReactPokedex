@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactPokedex/static/css/main.ddb0e087.css",
+    "main.js": "/ReactPokedex/static/js/main.9d2fc82c.js",
+    "index.html": "/ReactPokedex/index.html",
+    "main.ddb0e087.css.map": "/ReactPokedex/static/css/main.ddb0e087.css.map",
+    "main.9d2fc82c.js.map": "/ReactPokedex/static/js/main.9d2fc82c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddb0e087.css",
+    "static/js/main.9d2fc82c.js"
+  ]
+}
