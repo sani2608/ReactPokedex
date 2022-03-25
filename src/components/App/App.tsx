@@ -4,6 +4,9 @@ import Pokedex from "../Pokedex/Pokedex";
 import './App.css';
 
 class App extends React.Component {
+    componentDidMount () {
+        console.log('App componentDidMount');
+    }
     render () {
         return (
             <div className="App">
