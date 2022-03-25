@@ -1,13 +1,21 @@
 import React from 'react'
 import './SearchBox.css'
 
-const SearchBox = () => {
-  return (
-    <input 
-        className="search" 
-        type="search" 
-        placeholder="searh pokedex"/>
-  )
+interface SearchBoxProps {
+  onInputChange: (inputValue: string) => void;
 }
 
-export default SearchBox
+const SearchBox = ({ onInputChange }: SearchBoxProps) => {
+  return (
+    <input
+      onChange={(e) => {
+        onInputChange(e.target.value);
+      }}
+      className="search"
+      type="search"
+      placeholder="searh pokedex"
+    />
+  );
+};
+
+export default SearchBox;

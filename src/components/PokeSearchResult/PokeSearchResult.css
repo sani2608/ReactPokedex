@@ -11,3 +11,9 @@
     min-width: 150px;
     font-family: "Press start 2P", cursive;
 }
+
+.pokemon-animated-sprites{
+    height: 120px;
+    width: 120px;
+    padding: 12px;
+}
